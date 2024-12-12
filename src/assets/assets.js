@@ -41,6 +41,22 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import oneD1 from  './oneD.mp3'
+import prayforme1 from  './prayforme.mp3'
+import expresso1 from  './expresso.mp3'
+import suniya1 from  './suniya.mp3'
+import anuvjain1 from  './anuvjain.mp3'
+import badblood1 from  './badblood.mp3'
+import goat1 from  './goat.mp3'
+import radio1 from  './radio.mp3'
+import expresso from './expresso.jpeg'
+import goat from './goat.jpeg'
+import weekend from './weekend.jpeg'
+import anuvjain from './anuvjain.jpeg'
+import badblood from './badblood.jpeg'
+import OneD from './OneD.jpeg'
+import radio from './radio.jpeg'
+import suniya from './suniya.jpeg'
 
 export const assets = {
     bell_icon,
@@ -66,7 +82,15 @@ export const assets = {
     arrow_left,
     arrow_right,
     spotify_logo,
-    clock_icon
+    clock_icon,
+    expresso,
+    goat,
+    weekend,
+    anuvjain,
+    OneD,
+    badblood,
+    suniya,
+    radio
 }
 
 export const albumsData = [
@@ -117,66 +141,66 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
-        image: img1,
-        file:song1,
+        name: "Expresso",
+        image: expresso,
+        file:expresso1,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        duration:"3:20"
     },
     {
         id:1,
-        name: "Song Two",
-        image: img2,
-        file:song2,
+        name: "Pray For Me",
+        image: weekend,
+        file:prayforme1,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        duration:"3:32"
     },
     {
         id:2,
-        name: "Song Three",
-        image: img3,
-        file:song3,
+        name: "Bad Blood",
+        image: badblood,
+        file:badblood1,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        duration:"4:04"
     },
     {
         id:3,
-        name: "Song Four",
-        image: img4,
-        file:song1,
+        name: "Steal My Girl",
+        image: OneD,
+        file: oneD1,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        duration:"3:48"
     },
     {
         id:4,
-        name: "Song Five",
-        image: img5,
-        file:song2,
+        name: "Radio",
+        image: radio,
+        file:radio1,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
+        duration:"3:37"
     },
     {
         id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
+        name: "Goat",
+        image: goat ,
+        file:goat1,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"2:45"
+        duration:"3:43"
     },
     {
         id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
+        name: "Suniya suniya",
+        image: suniya,
+        file:suniya1,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
+        duration:"3:17"
     },
     {
         id:7,
-        name: "Song Eight",
-        image: img12,
-        file:song2,
+        name: "Jo tum mere ho",
+        image: anuvjain,
+        file:anuvjain1,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
+        duration:"3:17"
     }
 ]
